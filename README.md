@@ -1,16 +1,46 @@
-# React + Vite
+# Rise at Seven - Search-First Content Marketing Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Frontend**: [React 19] + [Vite]
+- **Styling**: [Tailwind CSS 4]
+- **Animations**: [GSAP] (ScrollTrigger)
+- **Smooth Scroll**: [Lenis]
+- **Carousels**: [Swiper]
+- **Icons**: [React Icons] 
 
-## React Compiler
+## 🛠️ Project Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these steps to get the project running locally on your machine.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ensure you have **Node.js** (v18 or higher) and **npm** installed.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shakhawat-coder/riseatseven-task.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd riseatseven
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+### Running Locally
+
+To start the development server:
+```bash
+npm run dev
+```
+The application will be available at `http://localhost:5173`.
+
+

@@ -1,58 +1,58 @@
 export const blogData = [
-  {
-    id: 1,
-
-    title: "Rise at Seven Appoints Hollie Lovell as Senior Operations Lead",
-    author: "Ray Saddiq",
-    readTime: "3 mins",
-    image: "https://rise-atseven.transforms.svdcdn.com/production/images/0B5A8137.jpg?w=400&h=400&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1778062638&s=cc5aeea20f2c582efb622c4b2e0baa15",
-    authorImage: "https://i.pravatar.cc/150?u=ray"
-  },
-  {
-    id: 2,
-
-    title: "Rise at Seven Exits Sheffield and Triples Manchester as new HQ as they go for global expansion",
-    author: "Ray Saddiq",
-    readTime: "2 mins",
-    image: "https://rise-atseven.transforms.svdcdn.com/production/images/WRAS-Manchester-01.png?w=2000&h=2000&q=100&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1778084605&s=66c3ca1b30a572b0c88d073167f801bd",
-    authorImage: "https://i.pravatar.cc/150?u=ray"
-  },
-  {
-    id: 3,
-    category: "News",
-    title: "Ryan McNamara Is Now Rise at Seven's Global Operations Director",
-    author: "Carrie Rose",
-    readTime: "2 mins",
-    image: "https://rise-atseven.transforms.svdcdn.com/production/images/0B5A7827.jpg?w=400&h=400&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1777514348&s=69c3ee1d52b842d82374bc94dccd5e57",
-    authorImage: "https://i.pravatar.cc/150?u=carrie"
-  }
+    {
+        id: 1,
+        
+        title: "Rise at Seven Appoints Hollie Lovell as Senior Operations Lead",
+        author: "Ray Saddiq",
+        readTime: "3 mins",
+        image: "https://rise-atseven.transforms.svdcdn.com/production/images/0B5A8137.jpg?w=400&h=400&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1778062638&s=cc5aeea20f2c582efb622c4b2e0baa15",
+        authorImage: "https://i.pravatar.cc/150?u=ray"
+    },
+    {
+        id: 2,
+        
+        title: "Rise at Seven Exits Sheffield and Triples Manchester as new HQ as they go for global expansion",
+        author: "Ray Saddiq",
+        readTime: "2 mins",
+        image: "https://rise-atseven.transforms.svdcdn.com/production/images/WRAS-Manchester-01.png?w=2000&h=2000&q=100&auto=format&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1778084605&s=66c3ca1b30a572b0c88d073167f801bd",
+        authorImage: "https://i.pravatar.cc/150?u=ray"
+    },
+    {
+        id: 3,
+        category: "News",
+        title: "Ryan McNamara Is Now Rise at Seven's Global Operations Director",
+        author: "Carrie Rose",
+        readTime: "2 mins",
+        image: "https://rise-atseven.transforms.svdcdn.com/production/images/0B5A7827.jpg?w=400&h=400&q=80&fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&dm=1777514348&s=69c3ee1d52b842d82374bc94dccd5e57",
+        authorImage: "https://i.pravatar.cc/150?u=carrie"
+    }
 ];
 
 
 export const blogCategories = [
-  "Digital PR",
-  "SEO",
-  "Content",
-  "Client Services",
-  "Creative Studio",
-  "Data",
-  "People",
-  "Resources",
-  "Social",
-  "Creator/Influencer marketing",
-  "News"
+    "Digital PR",
+    "SEO",
+    "Content",
+    "Client Services",
+    "Creative Studio",
+    "Data",
+    "People",
+    "Resources",
+    "Social",
+    "Creator/Influencer marketing",
+    "News"
 ];
 
 export const blogAuthors = [
-  "Carrie Rose",
-  "Ray Saddiq",
-  "Ash Billinghay",
-  "Matt Jones",
-  "Ella Bradley",
-  "Fiorenza Boschma",
-  "Ryan McNamara",
-  "Jake Gauntley",
-  "Kate Leach"
+    "Carrie Rose",
+    "Ray Saddiq",
+    "Ash Billinghay",
+    "Matt Jones",
+    "Ella Bradley",
+    "Fiorenza Boschma",
+    "Ryan McNamara",
+    "Jake Gauntley",
+    "Kate Leach"
 ];
 
 export const WORK_ITEMS = [

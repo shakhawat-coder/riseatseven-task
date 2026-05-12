@@ -201,7 +201,7 @@ export default function FeaturedWork() {
         >
           <div className="w-full pt-6 top-0 h-screen-fix-50 pointer-fine:h-screen-fix pointer-fine:sticky">
             <div className="w-full h-full overflow-hidden bg-grey-900 rounded-3xl grid grid-cols-12 gap-x-0 lg:gap-x-8 px-5 py-3 lg:pl-8 lg:pr-8 xl:pl-10 xl:pr-10">
-              <div className="relative col-span-12 items-start hidden lg:flex lg:flex-row lg:items-center lg:col-span-6 lg:h-[96svh] 4xl:col-span-6">
+              <div className="relative col-span-12 items-start hidden lg:flex lg:flex-row lg:items-center lg:col-span-6 lg:h-[96svh]">
                 <div className="flex flex-col items-start relative z-10 h-full pt-16 lg:pt-24 lg:pb-32 lg:gap-y-20">
                   <h2 className="js-featured-work-heading inline-flex flex-wrap text-balance relative text-left justify-start text-white text-md/tight lg:text-lg/tight xl:text-xl/tight 4xl:text-2xl/none font-medium tracking-tight">
                     Featured Work
@@ -227,7 +227,7 @@ export default function FeaturedWork() {
                         >
                           <Link
                             to={item.href}
-                            className="flex items-start gap-x-2"
+                            className="inline-flex items-start gap-x-3 group"
                             onMouseEnter={() => {
                               cancelLeftHoverClear();
                               setActiveId(item.id);
@@ -250,7 +250,7 @@ export default function FeaturedWork() {
 
               <div
                 ref={imagesRef}
-                className="col-span-12 grid pt-7 pb-14 lg:col-span-5 lg:col-start-8 3xl:col-span-5 3xl:col-start-8 4xl:col-span-5 4xl:col-start-8"
+                className="col-span-12 grid pt-7 pb-14 lg:col-span-6 lg:col-start-7"
                 onPointerMove={(e) => {
                   const el = document.elementFromPoint(e.clientX, e.clientY);
                   if (el) {
